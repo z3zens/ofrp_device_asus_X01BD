@@ -45,7 +45,6 @@ TARGET_VENDOR_PRODUCT_NAME := X01BD
 TARGET_VENDOR_DEVICE_NAME := X01BD
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.hardware.keystore=sdm660 \
     ro.hardware.gatekeeper=sdm660 \
     sys.usb.controller=a800000.dwc3 \
     sys.usb.rndis.func.name=rndis_bam \
